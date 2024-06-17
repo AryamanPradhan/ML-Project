@@ -1,8 +1,10 @@
 #Check documentation for loggers
-
+import sys
 import logging
 import os
 from datetime import datetime
+from pathlib import Path
+sys.path.append(str(Path('src').parent.parent))  
 
 
 LOG_FILE=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"

@@ -24,5 +24,5 @@ setup(
     author = 'Aryaman',
     author_email = 'aryamanacepradhan@gmail.com',
     packages = find_packages(),
-    install_requires=['pandas','numpy','seaborn','matplotlib','scikit-learn','catboost','xgboost']
+    install_requires=['pandas','numpy','seaborn','matplotlib','scikit-learn','catboost','xgboost','dill']
 )

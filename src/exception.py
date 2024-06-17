@@ -1,5 +1,9 @@
 import sys 
-from logger import logging
+
+from pathlib import Path
+sys.path.append(str(Path('src').parent.parent))  
+
+from src.logger import logging
 
 
 def error_message_detail(error,error_detail:sys):
